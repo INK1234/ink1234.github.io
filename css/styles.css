@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh; */
+}
+
+/* @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+} */
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  font-weight: 400;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #E84545;
+}
+
+.nav-logo {
+  width: 70px;
+  height: 70px;
+}
+
+.download-btn {
+  margin: 7% 3% 5% 0;
+}
+
+.big-heading {
+  color: white;
+  font-size: 5rem;
+  line-height: 1.5;
+  padding: 10px 0;
+}
+
+.section-heading {
+  color: grey;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-image: url("../images/custom_Gradients.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh; */
+}
+
+.home-page {
+  padding-top: 5%;
+}
+
+#title.container-fluid {
+  text-align: left;
+  padding: 0% 10% 5%;
+}
+
+.title-img {
+  width: 90%;
+}
+
+.title-col {
+  position: relative;
+  text-align: center;
+}
+
+#features .section-heading {
+  color: grey;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.feature-title {
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.feature {
+  padding: 5%;
+}
+
+.feature-icon {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.feature-icon:hover {
+  color: #E84545;
+}
+
+#demo.container-fluid {
+  text-align: left;
+  padding: 7% 15% 7%;
+  background-image: url("../images/custom_Gradients.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.demo-img {
+  width: 50%;
+}
+
+#demo .big-heading {
+  color: white;
+  font-size: 4rem;
+  line-height: 1.5;
+  padding: 10px 0;
+}
+
+#demo .section-heading {
+  color: grey;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+#download {
+  /* background-image: url("../images/link1.jpg"); */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#download .download-btn {
+  margin: 3% 3% 5% 0;
+}
+
+#contact {
+  background-image: url("../images/leaf.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-div {
+  width: 50%;
+  margin: auto;
+}
+
+#contact form {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+}
+
+.footer-icons {
+  margin: 1rem;
+}
+
+.linkedin-link {
+  text-decoration: none;
+  color: white;
+  margin: 0.5rem;
+}
+
+.linkedin-link:hover {
+  color: #0077b5;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 75px;
+}
+
+@media screen and (max-width: 990px) {
+  .form-div {
+    width: 100%;
+    margin: auto;
+  }
+
+  .big-heading {
+    color: white;
+    font-size: 7rem;
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+
+  .section-heading {
+    color: grey;
+    font-size: 4rem;
+    line-height: 1.5;
+  }
+
+  .nav-logo {
+    width: 125px;
+    height: 125px;
+  }
+
+  .bar {
+    width: 75px;
+    height: 7px;
+    margin: 15px auto;
+  }
+
+  .nav-menu {
+    font-size: 2.5rem;
+  }
+
+  #title.container-fluid {
+    text-align: center;
+  }
+
+  #title .big-heading {
+    margin-top: 10%;
+  }
+
+  #title image {
+    margin-top: 3rem;
+  }
+
+  #title button {
+    font-size: 2rem;
+    height: 5rem;
+  }
+
+  #demo.container-fluid {
+    text-align: center;
+  }
+
+  #demo .big-heading {
+    color: white;
+    font-size: 7rem;
+    line-height: 1.5;
+    padding: 10px 0;
+  }
+
+  #demo .section-heading {
+    color: grey;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  #download button {
+    font-size: 2rem;
+    height: 5rem;
+  }
+
+  /* #features .section-heading {
+    color: grey;
+    font-size: 5rem;
+    line-height: 1.5;
+  } */
+  .feature-title {
+    font-size: 6rem;
+    padding: 1rem;
+  }
+
+  .feature p {
+    font-size: 2rem;
+  }
+
+  .feature i {
+    font-size: 7rem;
+  }
+
+  #contact {
+    font-size: 2rem;
+  }
+
+  #contact input {
+    font-size: 2rem;
+  }
+
+  #contact textarea {
+    font-size: 2rem;
+  }
+
+  #contact button {
+    font-size: 2rem;
+    height: 5rem;
+  }
+
+  #footer {
+    font-size: 2rem;
+  }
+
+  #footer h4 {
+    font-size: 3rem;
+    margin-top: 5rem;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+      0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(21px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-21px) rotate(-45deg);
+  }
+}
