@@ -77,7 +77,7 @@ a {
 }
 
 .nav-link:hover {
-  color: #E84545;
+  color: #C490E4;
 }
 
 .nav-logo {
@@ -163,10 +163,6 @@ a {
   background-size: cover;
 }
 
-.demo-img {
-  width: 50%;
-}
-
 #demo .big-heading {
   color: white;
   font-size: 4rem;
@@ -215,10 +211,10 @@ a {
 }
 
 .footer-icons {
-  margin: 1rem;
+  margin: 1rem 0.5rem;
 }
 
-.linkedin-link {
+.social-link {
   text-decoration: none;
   color: white;
   margin: 0.5rem;
@@ -228,15 +224,39 @@ a {
   color: #0077b5;
 }
 
+.instagram-link:hover {
+  color: #cd486b;
+}
+
+.twitter-link:hover {
+  color: #00acee;
+}
+
+.facebook-link:hover {
+  color: #4267B2;
+}
+
+.profile-link:hover {
+  color: #FF6363;
+}
+
 .copyright {
   text-align: center;
   padding-top: 75px;
 }
 
+
+/* ******************************************************************************** */
+/* For Mobile Devices */
+
 @media screen and (max-width: 990px) {
   .form-div {
     width: 100%;
     margin: auto;
+  }
+
+  .container-fluid{
+    padding: 15% 10% 20%;
   }
 
   .big-heading {
@@ -269,6 +289,7 @@ a {
 
   #title.container-fluid {
     text-align: center;
+    padding: 5% 5% 15%;
   }
 
   #title .big-heading {
@@ -276,7 +297,7 @@ a {
   }
 
   #title image {
-    margin-top: 3rem;
+    margin: 3rem 0;
   }
 
   #title button {
@@ -286,6 +307,7 @@ a {
 
   #demo.container-fluid {
     text-align: center;
+    padding: 15% 10% 20%;
   }
 
   #demo .big-heading {
@@ -299,6 +321,10 @@ a {
     color: grey;
     font-size: 3rem;
     line-height: 1.5;
+  }
+
+  #demo video {
+    width: 400px;
   }
 
   #download button {
@@ -348,6 +374,10 @@ a {
   #footer h4 {
     font-size: 3rem;
     margin-top: 5rem;
+  }
+
+  .footer-icons {
+    margin: 2rem 1rem;
   }
 
   .nav-menu {
